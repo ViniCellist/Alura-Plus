@@ -25,13 +25,19 @@ body {
 .principal {
     background-image: url("../img/Background.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
 }
 
 .container {
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
+}
+
+.container__box {
+    margin: 0 6rem;
 }
 
 .container__botao {
@@ -41,6 +47,7 @@ body {
     color: var(--color-white);
     display: block;
     text-decoration: none;
+    margin-bottom: 1rem;
 }
 
 .botao_secundario {
@@ -54,6 +61,48 @@ body {
 }
 
 .container__titulo {
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 700;
+}
+
+.container__imagem {
+    margin: 1rem 0 2rem 0;
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10rem;
+}
+
+.descricao__titulo {
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: var(--font-Inter);
+    color: var(--color-white);
+    margin-bottom: 0.1rem;
+}
+
+.descricao__text {
+    color: var(--color-gray);
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: var(--font-Inter);
+
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.container__descricao {
+    padding: 2rem;
+}
+
+#alinhar {
+    margin-left: 2rem;
 }
