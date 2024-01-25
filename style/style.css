@@ -106,3 +106,82 @@ body {
 #alinhar {
     margin-left: 2rem;
 }
+
+.dispositivos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dispositivos__titulo {
+    font-family: var(--font-Inter);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.dispositivos__container {
+    display: flex;
+}
+
+.dispositivos__img {
+    width: 25vw;
+    height: 30vh;
+    background-color: var(--color-bg);
+    margin: 1rem;
+}
+
+#tv {
+    background-image: url(../img/tv.png);
+    background-repeat: no-repeat;
+}
+
+#pc {
+    background-image: url(../img/computador.png);
+    background-repeat: no-repeat;
+}
+
+#cel {
+    background-image: url(../img/celular.png);
+    background-repeat: no-repeat;
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__img {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer__container--links {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__link {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    text-align: center;
+    color: var(--color-white);
+    font-family: var(--font-Inter);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+.footer__text {
+    text-align: center;
+    font-family:  var(--font-Inter);
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--color-gray);
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
