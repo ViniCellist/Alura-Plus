@@ -185,3 +185,50 @@ body {
     padding: 1rem;
     margin-bottom: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+    .container, .principal {
+        display: block;
+        background-image: none;
+        height: 50vh
+    }
+
+    .container__imagem {
+        width: 50vw;
+    }
+
+    .container__box {
+        margin: 2rem;
+    }
+
+    .secundario {
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario__imagem {
+        width: 50vw;
+    }
+
+    .dispositivos__container {
+        flex-direction: column;
+    }
+
+    .dispositivos__titulo {
+        text-align: center;
+        font-size: 2.2rem;
+    }
+
+    .dispositivos__img{
+        width: 85vw;
+    }
+
+    .footer__container--links {
+        display: block;
+    }
+
+    .footer__text {
+        font-size: 0.6rem;
+    }
+
+}
